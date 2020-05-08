@@ -20,7 +20,7 @@ SELECT *
 FROM role;
 
 INSERT INTO employee
-    (firstName,lastName,role_id,manager_id)
+    (firstName,lasteName,role_id,manager_id)
 VALUES("Geralt", "Rivia", 1, NULL),
     ("Ciri", "Rhiannon", 1, 1),
     ("Alex", "Phillips", 3, NULL),
@@ -29,4 +29,4 @@ VALUES("Geralt", "Rivia", 1, NULL),
     ("Kathryn", "Janeway", 6, NULL),
     ("Jean Luc", "Picard", 7, 6);
 SELECT *
-FROM role;
+FROM employee;
